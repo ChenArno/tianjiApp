@@ -1,0 +1,153 @@
+.cont {
+  background-color: #fff;
+  position: relative;
+}
+.cont-top{
+  border-style: solid;
+  border-top-width: 1;
+  border-top-color: #e6e6e6;
+}
+.cont-cell{
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-style: solid;
+  border-top-width: 1;
+  border-top-color: #e6e6e6;
+}
+.cont-body{
+  border-style: solid;
+  border-top-width: 1;
+  border-top-color: #cccccc;
+  background-color: #f2f2f2;
+}
+
+.tj-red {
+  color: #EC4F46;
+}
+
+.tj-blue {
+  color: #6AA5FF;
+}
+.tj-green{
+  color: #28B779;
+}
+.tj-purple{
+  color: #6aa5ff;
+}
+
+.tj-button {
+  background-color: #df4f45;
+  width: 659px;
+  height: 95px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+.tj-button:active{
+  background-color: #fe8a81;
+}
+.tj-button-active {
+  background-color: #fe8a81;
+}
+.iconfont{
+  font-family:iconfont;
+  font-size:52;
+  color:#bfbfbf;
+}
+.status-bar {
+  width: 750;
+  height: 40;
+  background-color: #fff;
+}
+.tj-cont{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-style: solid;
+  border-top-width: 1;
+  border-top-color: #e6e6e6;
+  background-color: rgb(242,242,242)
+}
+.tj-head{
+  border-style: solid;
+  border-bottom-width: 1;
+  border-bottom-color: #d9d9d9;
+  
+}
+.tj-head-cell{
+  font-size: 34;
+}
+.tj-input{
+  color:#333333;
+}
+.l-subhead {
+  color: #666666;
+  font-size: 30;
+  text-align: center;
+  margin-top:180;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: center;
+}
+.divider{
+  background-color:#d9d9d9;
+  width:210;
+  height:1;
+}
+.tj-cell{
+  border-style: solid;
+  border-width: 1;
+  border-color: #e6e6e6;
+}
+.tj-group{
+  margin-top:20;
+}
+
+.page-list{
+  width: 750px;
+}
+.tj-noImg{
+  position: absolute;
+  width:750;
+  left: 0;
+  bottom:0;
+  background-color: red;
+}
+
+.tj-title{
+  height:80;
+  padding-left:40;
+  padding-right:40;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#f7f5f5;
+  flex-direction: row;
+}
+.tj-title-cell{
+  color:#666666;
+}
+.tj-point {
+  background-color: #ffffff;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+.shop-area {
+  height: 94;
+  width: 750;
+  background-color: #ffffff;
+  border-style: solid;
+  border-top-width: 1;
+  border-top-color: #e6e6e6;
+  padding-left: 30;
+  align-items: center;
+  flex-direction: row;
+}
